@@ -61,8 +61,19 @@ public class PlayerMove : MonoBehaviour
         {
             //Estamos en el suelo
             animator.SetBool("Jump", false);
+            animator.SetBool("DoubleJump", false);
+            animator.SetBool("Falling", false);
         }
         //**
+
+        if (rb2D.velocity.y < 0)
+        {
+            animator.SetBool("Falling", true);
+        }
+        else if (rb2D.velocity.y > 0)
+        {
+            animator.SetBool("Falling", false);
+        }
     }
     void FixedUpdate()
     {
@@ -108,3 +119,5 @@ public class PlayerMove : MonoBehaviour
         }
     }
 }
+
+// Cuando el personaje está cayendo es cuando velocity.y <0

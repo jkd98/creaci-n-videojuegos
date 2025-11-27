@@ -1803,8 +1803,9 @@ GameObject:
   - component: {fileID: 818244997}
   - component: {fileID: 818244999}
   - component: {fileID: 818245000}
+  - component: {fileID: 818245001}
   m_Layer: 0
-  m_Name: Frog
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2004,6 +2005,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 818244994}
+--- !u!114 &818245001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818244993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c9e4351fd424093ba795142761b9e52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedPlayer: 2
+  animator: {fileID: 818244994}
+  spriteRenderer: {fileID: 818244995}
+  playersController:
+  - {fileID: 9100000, guid: a794d65c8584ca7bca6a5202ba42a377, type: 2}
+  - {fileID: 9100000, guid: 9fbc1ad59544efb2b91f689499d2493c, type: 2}
+  - {fileID: 9100000, guid: 471afb36ce4b68821a57e19674d0dc9c, type: 2}
+  playersSprite:
+  - {fileID: -6367560908665664636, guid: cd947491a13509945aa1b644f9db3ef2, type: 3}
+  - {fileID: -6367560908665664636, guid: d348dff3819df794186a80cb95777629, type: 3}
+  - {fileID: -6367560908665664636, guid: 40de9a8703e2e5a47882b0b86451c741, type: 3}
 --- !u!1 &875638022
 GameObject:
   m_ObjectHideFlags: 0
