@@ -15,6 +15,7 @@
 * <a href="https://docs.google.com/document/d/1xR3Al7OfncFeLxHjP4CvJQyxE3ylwGKR4H8tDipqozM/edit?usp=sharing" target="_blank" >Documento Tutorial 9</a>
 * <a href="https://docs.google.com/document/d/1BBHBykvBI7Mri4LBGTRPOazl57wNmP-kiujIqEunJhA/edit?usp=sharing" target="_blank" >Documento Tutorial 10</a>
 * <a href="https://docs.google.com/document/d/1Bt_a1EtC-nggoiD5SQ5k63eyuc1O-noeZNns9qiiyqU/edit?usp=sharing" target="_blank" >Documento Tutorial 11</a>
+* <a href="https://docs.google.com/document/d/1gDz_1MRRZEDbKT300osSUB4CVjmdUJGxdpNT_WCpy_w/edit?usp=sharing" target="_blank" >Documento Tutorial 12</a>
 
 #### Videos de evidencia
 * <a href="https://drive.google.com/file/d/1aDPAm8dOw0W6VkXxzY7yFbcnNeoBpSxT/view?usp=sharing" target="_blank" >Video 1</a>
@@ -28,5 +29,6 @@
 * <a href="https://drive.google.com/file/d/12ngj8VfeoEDXhUIM_p2Ts6ThP1dSPmN8/view?usp=sharing" target="_blank" >Video 9</a>
 * <a href="https://drive.google.com/file/d/1DoHiSainF_H13Ftsqz8lCOUkcE88WjOW/view?usp=sharing" target="_blank" >Video 10</a>
 * <a href="https://drive.google.com/file/d/1MZskplqTgCGbRMRQhuG43XtzB68aIpp8/view?usp=sharing" target="_blank" >Video 11</a>
+* <a href="https://drive.google.com/file/d/1wiZECBNPpkoYGPSsIJtJEh1mrgoR-B3t/view?usp=sharing" target="_blank" >Video 12</a>
 ### Referenias
 * <a href="https://www.youtube.com/watch?v=-m7ZaHhkDAc&list=PLNEAWvYbJJ9kZpaIg2RfzAc_KZixBgchT" target="_blank" class="yt" >Playlist de Tutoriales</a>
