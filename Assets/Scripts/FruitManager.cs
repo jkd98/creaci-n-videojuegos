@@ -9,9 +9,18 @@ public class FruitManager : MonoBehaviour
 {
     public TextMeshProUGUI fruitText; // Texto UI para mostrar las frutas recogidas
     public GameObject transitionLevel;
+    public TextMeshProUGUI totalFruitsText; // Texto UI para mostrar el total de frutas
+    public TextMeshProUGUI fruitsCollected; // Texto UI para mostrar las frutas recogidas
+
+    void Start()
+    {
+        totalFruitsText.text = transform.childCount.ToString();
+    }
+
     private void Update()
     {
         AllFruitsCollected();
+        fruitsCollected.text = transform.childCount.ToString();
     }
     // Preguntar si quedan frutas
     public void AllFruitsCollected()
