@@ -27,7 +27,7 @@ public class PlayerMove : MonoBehaviour
     void Update()
     {
         // Para saltar
-        if (Input.GetKey("space"))
+        if (Input.GetKeyDown("space"))
         {
             if (CheckGround.isGrounded)
             {
@@ -36,15 +36,12 @@ public class PlayerMove : MonoBehaviour
             }
             else
             {
-                if (Input.GetKeyDown("space"))
+                if (canDoubleJump)
                 {
-                    if (canDoubleJump)
-                    {
-                        animator.SetBool("DoubleJump", true);
-                        rb2D.velocity = new Vector2(rb2D.velocity.x, doubleJumpSpeed);
-                        canDoubleJump = false; // Se gasta el doble salto
+                    animator.SetBool("DoubleJump", true);
+                    rb2D.velocity = new Vector2(rb2D.velocity.x, doubleJumpSpeed);
+                    canDoubleJump = false; // Se gasta el doble salto
 
-                    }
                 }
             }
         }
@@ -56,6 +53,7 @@ public class PlayerMove : MonoBehaviour
             //Estamos saltando
             animator.SetBool("Jump", true);
             animator.SetBool("Run", false);
+            Debug.Log("EN AIRE - No puede saltar"); 
         }
         if (CheckGround.isGrounded)
         {
