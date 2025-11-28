@@ -1,7 +1,7 @@
 
 # Creación de Videojuegos
 
-## Plataforma 2D
+## Tutoriales - Plataforma 2D
 **Descripción:** Estos son los archivos y videos de los tutoriales para el R1 de la materia "Creación de Videojuegos"
 #### Documentos de evidencia
 * <a href="https://docs.google.com/document/d/1tUus_A4fUNl7fy7AzQyO92Aj18t9rKhWLR6ebTu6HQ4/edit?usp=sharing" target="_blank" >Documento Tutorial 1</a>
