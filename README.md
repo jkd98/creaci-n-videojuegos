@@ -32,3 +32,7 @@
 * <a href="https://drive.google.com/file/d/1wiZECBNPpkoYGPSsIJtJEh1mrgoR-B3t/view?usp=sharing" target="_blank" >Video 12</a>
 ### Referenias
 * <a href="https://www.youtube.com/watch?v=-m7ZaHhkDAc&list=PLNEAWvYbJJ9kZpaIg2RfzAc_KZixBgchT" target="_blank" class="yt" >Playlist de Tutoriales</a>
+
+## Ejercicios Prácticos
+Barra de vida: https://drive.google.com/file/d/1jeN15TeNBdDQxnn4UBef6G7iT9zSj50z/view?usp=sharing
+Menú: https://drive.google.com/file/d/1Z4LjMjbb6E_tWdbDI950NbmNOhHQfXuF/view?usp=sharing
